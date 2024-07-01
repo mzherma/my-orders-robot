@@ -1,0 +1,32 @@
+{
+    "mtv_password": {
+        "type": "windows",
+        "value": "class:\"Edit\" and control:\"EditControl\" and name:\"Password:\"",
+        "window": "Logon",
+        "name": "mtv_password",
+        "element": {
+            "tag": "EditControl"
+        },
+        "version": 1
+    },
+    "mtv_userid": {
+        "type": "windows",
+        "value": "class:\"Edit\" and control:\"EditControl\" and name:\"User ID:\" ",
+        "window": "Logon",
+        "name": "mtv_userid",
+        "element": {
+            "tag": "EditControl"
+        },
+        "version": 1
+    },
+    "mtv_logon": {
+        "type": "windows",
+        "value": "control:\"ButtonControl\" and class:\"Button\" and name:\"Logon\"",
+        "window": "Logon",
+        "name": "mtv_logon",
+        "element": {
+            "tag": "ButtonControl"
+        },
+        "version": 1
+    }
+}
